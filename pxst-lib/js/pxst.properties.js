@@ -6,7 +6,7 @@
 outlets = 1;
 setoutletassist(0,"patcher filepath and more");
 
-
+const fs = require("fs");
 
 function bang()
 {
@@ -17,3 +17,10 @@ function bang()
 	outlet(0, "apppath",max.apppath + "/")
 }
 
+
+function createFolder(dir)
+{
+	if (!fs.existsSync(dir)){
+    	fs.mkdirSync(dir);
+	}
+}
