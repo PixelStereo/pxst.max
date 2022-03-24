@@ -41,12 +41,24 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-					"id" : "obj-8",
+					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 115.5, 624.0, 90.0, 22.0 ],
+					"patching_rect" : [ 151.5, 648.0, 90.0, 22.0 ],
 					"text" : "s _events_path"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 115.5, 618.0, 55.0, 22.0 ],
+					"text" : "zl slice 1"
 				}
 
 			}
@@ -506,6 +518,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-8", 1 ]
 				}
 
 			}

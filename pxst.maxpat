@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 805.0, 45.0, 662.0, 485.0 ],
+		"rect" : [ 959.0, 349.0, 662.0, 485.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -94,7 +94,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 76.0, 234.0, 698.0, 429.0 ],
+						"rect" : [ 372.0, 1206.0, 698.0, 429.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1843,7 +1843,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 223.0, 207.0, 50.0, 22.0 ],
-													"text" : "7"
+													"text" : "21"
 												}
 
 											}
@@ -2658,7 +2658,7 @@
 														}
 ,
 														"classnamespace" : "box",
-														"rect" : [ 1350.0, 226.0, 272.0, 371.0 ],
+														"rect" : [ 1744.0, 139.0, 272.0, 371.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -2687,20 +2687,6 @@
 														"subpatcher_template" : "",
 														"assistshowspatchername" : 0,
 														"boxes" : [ 															{
-																"box" : 																{
-																	"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
-																	"id" : "obj-2",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 0,
-																	"patching_rect" : [ 118.0, 328.0, 57.0, 22.0 ],
-																	"text" : "forward"
-																}
-
-															}
-, 															{
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
@@ -2778,8 +2764,8 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 15.0, 328.0, 77.0, 22.0 ],
-																	"text" : "print >>>>>>"
+																	"patching_rect" : [ 15.0, 328.0, 57.0, 22.0 ],
+																	"text" : "forward"
 																}
 
 															}
@@ -3909,13 +3895,6 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "jsproperties.js",
-				"bootpath" : "~/Documents/GITs/pxst.max/pxst-lib/misc",
-				"patcherrelativepath" : "./pxst-lib/misc",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "pxst.cuesheet.maxpat",
 				"bootpath" : "~/Documents/GITs/pxst.max/pxst-lib",
 				"patcherrelativepath" : "./pxst-lib",
