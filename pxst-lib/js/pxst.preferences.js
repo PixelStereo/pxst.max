@@ -7,11 +7,11 @@ var dir = '';
 Max.addHandler("check", (dir) => {
 	if (dir){
 		if (!fs.existsSync(dir)){
-			Max.outlet("creating", dir + '/pxst.max-preferences.json');
     		fs.mkdirSync(dir);
+			Max.outlet("missing", dir + '/pxst.max-preferences.json');
 			}
 		else{
-			Max.outlet("exists", dir + '/pxst.max-preferences.json');
+			Max.outlet("test", dir + '/pxst.max-preferences.json');
 			}
 		}
 	else {

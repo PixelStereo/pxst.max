@@ -447,8 +447,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.5, 357.000000000000057, 89.0, 22.0 ],
-					"text" : "s _events_play"
+					"patching_rect" : [ 5.5, 357.000000000000057, 82.0, 22.0 ],
+					"text" : "s /events/play"
 				}
 
 			}
@@ -622,7 +622,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 105.0, 237.0, 223.0, 24.0 ],
-					"prefix" : "~/Documents/GITs/atem-control/events/",
+					"prefix" : "~/Documents/GITs/cendrillon/events/",
 					"presentation" : 1,
 					"presentation_rect" : [ 2.25, 1.0, 169.458135593220277, 24.0 ],
 					"textjustification" : 1

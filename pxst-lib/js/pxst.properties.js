@@ -16,11 +16,3 @@ function bang()
 	outlet(0, "filepath",patcher.filepath)
 	outlet(0, "apppath",max.apppath + "/")
 }
-
-
-function createFolder(dir)
-{
-	if (!fs.existsSync(dir)){
-    	fs.mkdirSync(dir);
-	}
-}
