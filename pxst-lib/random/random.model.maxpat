@@ -251,7 +251,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 290.0, 217.0, 19.0 ],
+					"patching_rect" : [ 9.0, 330.0, 217.0, 19.0 ],
 					"text" : "pxst.control  #1/val #1 i 0 1 /common"
 				}
 
