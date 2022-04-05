@@ -385,8 +385,6 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 131.5, 325.0, 95.0, 37.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 90.516384180790951, 27.0, 81.658983050847411, 29.0 ],
 					"text" : "Update"
 				}
 
@@ -475,7 +473,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 353.5, 286.0, 95.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.25, 57.55913978494624, 81.658983050847439, 29.0 ],
+					"presentation_rect" : [ 1.782768361581887, 29.27956989247312, 81.658983050847439, 29.0 ],
 					"text" : "Edit"
 				}
 
@@ -491,7 +489,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 5.5, 237.0, 95.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.516384180790951, 57.55913978494624, 81.658983050847439, 29.0 ],
+					"presentation_rect" : [ 90.049152542372838, 29.27956989247312, 81.658983050847439, 29.0 ],
 					"text" : "Play"
 				}
 
@@ -506,8 +504,6 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 374.0, 60.0, 198.0, 37.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.25, 27.0, 81.658983050847439, 29.0 ],
 					"text" : "New"
 				}
 
@@ -654,7 +650,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 294.0, 9.0, 224.0, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.109830508474573, -3.0, 174.939322033898321, 93.55913978494624 ],
+					"presentation_rect" : [ 1.109830508474573, -3.0, 174.939322033898321, 65.55913978494624 ],
 					"proportion" : 0.5,
 					"rounded" : 12
 				}
