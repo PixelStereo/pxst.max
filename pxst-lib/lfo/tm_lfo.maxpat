@@ -560,7 +560,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 393.0, 108.0, 315.0, 0.0 ],
-									"text" : "pxst.param #1/sinus2/max #1 f 1 -1 1 1"
+									"text" : "makeparam #1/sinus2/max #1 f 1 -1 1 1"
 								}
 
 							}
@@ -575,7 +575,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 357.0, 83.0, 315.0, 0.0 ],
-									"text" : "pxst.param #1/sinus2/min #1 f -1 -1 1 1"
+									"text" : "makeparam #1/sinus2/min #1 f -1 -1 1 1"
 								}
 
 							}
@@ -727,7 +727,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 41.0, 31.0, 315.0, 0.0 ],
-									"text" : "pxst.param #1/sinus2/loop #1 i 1 0 2 0"
+									"text" : "makeparam #1/sinus2/loop #1 i 1 0 2 0"
 								}
 
 							}
@@ -1151,8 +1151,8 @@
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 34.0, 236.0, 231.0, 19.0 ],
 					"text" : "pxst.control #1/sinus2 #1 f -1 1.28 /common"
 				}
@@ -1169,7 +1169,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 79.0, 159.0, 315.0, 19.0 ],
-					"text" : "pxst.param #1/sinus2/freq #1 f 0.1 -6.26 6.26 1"
+					"text" : "makeparam #1/sinus2/freq #1 f 0.1 -6.26 6.26 1"
 				}
 
 			}
@@ -1247,7 +1247,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 393.0, 108.0, 315.0, 0.0 ],
-									"text" : "pxst.param #1/sinus/max #1 f 1 -1 1 1"
+									"text" : "makeparam #1/sinus/max #1 f 1 -1 1 1"
 								}
 
 							}
@@ -1262,7 +1262,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 225.0, 83.0, 315.0, 0.0 ],
-									"text" : "pxst.param #1/sinus/min #1 f -1 -1 1 1"
+									"text" : "makeparam #1/sinus/min #1 f -1 -1 1 1"
 								}
 
 							}
@@ -1397,7 +1397,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 41.0, 31.0, 315.0, 0.0 ],
-									"text" : "pxst.param #1/sinus/loop #1 i 1 0 2 0"
+									"text" : "makeparam #1/sinus/loop #1 i 1 0 2 0"
 								}
 
 							}
@@ -1917,7 +1917,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 505.0, 167.0, 220.0, 19.0 ],
-					"text" : "pxst.param #1/circle/radius/y #1 f 4 0 10 1"
+					"text" : "makeparam #1/circle/radius/y #1 f 4 0 10 1"
 				}
 
 			}
@@ -1932,7 +1932,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 433.0, 110.0, 220.0, 19.0 ],
-					"text" : "pxst.param #1/circle/radius/x #1 f 4 0 10 1"
+					"text" : "makeparam #1/circle/radius/x #1 f 4 0 10 1"
 				}
 
 			}
@@ -1947,7 +1947,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 469.0, 128.0, 208.0, 19.0 ],
-					"text" : "pxst.param #1/circle/speed #1 f 0.1 0 5 1"
+					"text" : "makeparam #1/circle/speed #1 f 0.1 0 5 1"
 				}
 
 			}
@@ -1958,8 +1958,8 @@
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 507.0, 218.0, 254.0, 19.0 ],
 					"text" : "pxst.control #1/circle/end #1 b 0 0 /common"
 				}
@@ -1972,8 +1972,8 @@
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 452.0, 240.0, 262.0, 19.0 ],
 					"text" : "pxst.control #1/circle/y #1 f -4 4 /common"
 				}
@@ -1986,8 +1986,8 @@
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 397.0, 262.0, 262.0, 19.0 ],
 					"text" : "pxst.control #1/circle/x #1 f -4 4 /common"
 				}
@@ -2036,13 +2036,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-24",
-					"linecount" : 14,
+					"linecount" : 13,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 773.0, 110.0, 225.0, 159.0 ],
-					"text" : ";\r#1/sw/init bang;\r#1/sinus/min/init bang;\r#1/sinus/max/init bang;\r#1/sinus/freq/init bang;\r#1/sinus/init bang;\r#1/sinus/loop/init bang;\r#1/circle/speed/init bang;\r#1/circle/radius/x/init bang;\r#1/circle/radius/y/init bang;\r#1/circle/x/init bang;\r#1/circle/y/init bang;\r#1/circle/end/init bang;\rcontrol_register/store #1;\r"
+					"patching_rect" : [ 773.0, 110.0, 225.0, 149.0 ],
+					"text" : ";\r#1/sw/init bang;\r#1/sinus/min/init bang;\r#1/sinus/max/init bang;\r#1/sinus/freq/init bang;\r#1/sinus/init bang;\r#1/sinus/loop/init bang;\r#1/circle/speed/init bang;\r#1/circle/radius/x/init bang;\r#1/circle/radius/y/init bang;\r#1/circle/x/init bang;\r#1/circle/y/init bang;\r#1/circle/end/init bang;\r"
 				}
 
 			}
@@ -2068,8 +2068,8 @@
 					"id" : "obj-26",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 51.0, 132.0, 231.0, 19.0 ],
 					"text" : "pxst.control #1/sinus #1 f -1 1.28 /common"
 				}
@@ -2082,11 +2082,11 @@
 					"fontsize" : 9.0,
 					"id" : "obj-27",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 96.0, 55.0, 315.0, 19.0 ],
-					"text" : "pxst.param #1/sinus/freq #1 f 0.1 -6.26 6.26 1"
+					"text" : "makeparam #1/sinus/freq #1 f 0.1 -6.26 6.26 1"
 				}
 
 			}
@@ -2250,50 +2250,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "makeswitch.maxpat",
-				"bootpath" : "~/Documents/GITs/cendrillon/modul8",
-				"patcherrelativepath" : "../../../cendrillon/modul8",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "moduleinit.maxpat",
-				"bootpath" : "~/Documents/GITs/cendrillon/modul8",
-				"patcherrelativepath" : "../../../cendrillon/modul8",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pxst.control.maxpat",
-				"bootpath" : "~/Documents/GITs/pxst.max/pxst-lib/misc",
-				"patcherrelativepath" : "../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pxst.param.maxpat",
-				"bootpath" : "~/Documents/GITs/pxst.max/pxst-lib/misc",
-				"patcherrelativepath" : "../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tm_alias.maxpat",
-				"bootpath" : "~/Documents/GITs/cendrillon/modul8",
-				"patcherrelativepath" : "../../../cendrillon/modul8",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

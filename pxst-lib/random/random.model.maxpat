@@ -156,13 +156,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-9",
-					"linecount" : 10,
+					"linecount" : 9,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 586.0, 49.0, 203.0, 119.0 ],
-					"text" : ";\r#1/sw/init bang;\r#1/val/min/init bang;\r#1/val/max/init bang;\r#1/time/max/init bang;\r#1/time/min/init bang;\r#1/trans/max/init bang;\r#1/trans/min/init bang;\r#1/val/init bang;\rcontrol_register/store #1;\r"
+					"patching_rect" : [ 586.0, 49.0, 203.0, 109.0 ],
+					"text" : ";\r#1/sw/init bang;\r#1/val/min/init bang;\r#1/val/max/init bang;\r#1/time/max/init bang;\r#1/time/min/init bang;\r#1/trans/max/init bang;\r#1/trans/min/init bang;\r#1/val/init bang;\r"
 				}
 
 			}
