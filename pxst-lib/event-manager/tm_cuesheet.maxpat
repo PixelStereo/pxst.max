@@ -632,7 +632,6 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-5",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -3124,7 +3123,6 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-3",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -3571,7 +3569,6 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-12",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 4,
@@ -4690,7 +4687,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -5196,7 +5192,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 548.0, 249.0, 126.0, 29.0 ],
+									"patching_rect" : [ 548.0, 249.0, 102.0, 29.0 ],
 									"text" : "prepend #1/step/current"
 								}
 
@@ -5211,7 +5207,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 497.0, 353.0, 155.0, 29.0 ],
+									"patching_rect" : [ 497.0, 353.0, 127.0, 29.0 ],
 									"text" : "prepend #1/step/current/name"
 								}
 
@@ -5241,7 +5237,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 464.0, 315.0, 141.0, 29.0 ],
+									"patching_rect" : [ 464.0, 315.0, 117.0, 29.0 ],
 									"text" : "prepend #1/step/next/name"
 								}
 
@@ -5313,7 +5309,6 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-1",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -5329,7 +5324,6 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-2",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -5772,7 +5766,6 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-6",
-													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -5802,7 +5795,6 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-8",
-													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -6359,7 +6351,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 602.0, 472.0, 125.0, 39.0 ],
+									"patching_rect" : [ 602.0, 472.0, 95.0, 39.0 ],
 									"text" : "r #1/nextcomment/from"
 								}
 
@@ -6375,7 +6367,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 739.0, 472.0, 139.0, 39.0 ],
+									"patching_rect" : [ 739.0, 472.0, 109.0, 39.0 ],
 									"text" : "r #1/onstagecomment/from"
 								}
 
@@ -7663,7 +7655,104 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "bytecount.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "explinlog.maxpat",
+				"bootpath" : "~/Documents/GITs/cendrillon/modul8",
+				"patcherrelativepath" : "../../../cendrillon/modul8",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "linecurv.maxpat",
+				"bootpath" : "~/Documents/GITs/cendrillon/modul8",
+				"patcherrelativepath" : "../../../cendrillon/modul8",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "makeparam.maxpat",
+				"bootpath" : "~/Documents/GITs/cendrillon/modul8",
+				"patcherrelativepath" : "../../../cendrillon/modul8",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "makesubparam.mxt",
+				"bootpath" : "~/Documents/GITs/pxst.max/pxst-lib/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "makesubswitch.mxt",
+				"bootpath" : "~/Documents/GITs/pxst.max/pxst-lib/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "makeswitch.maxpat",
+				"bootpath" : "~/Documents/GITs/cendrillon/modul8",
+				"patcherrelativepath" : "../../../cendrillon/modul8",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "minmaxf.maxpat",
+				"bootpath" : "~/Documents/GITs/cendrillon/modul8",
+				"patcherrelativepath" : "../../../cendrillon/modul8",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "multimapsend.maxpat",
+				"bootpath" : "~/Documents/GITs/pxst.max/pxst-lib/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "projectpath.maxpat",
+				"bootpath" : "~/Documents/GITs/pxst.max/pxst-lib/event-manager",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pxst.control.maxpat",
+				"bootpath" : "~/Documents/GITs/pxst.max/pxst-lib/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "routewithset.maxpat",
+				"bootpath" : "~/Documents/GITs/pxst.max/pxst-lib/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "scalecurv.maxpat",
+				"bootpath" : "~/Documents/GITs/cendrillon/modul8",
+				"patcherrelativepath" : "../../../cendrillon/modul8",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tm_alias.maxpat",
+				"bootpath" : "~/Documents/GITs/cendrillon/modul8",
+				"patcherrelativepath" : "../../../cendrillon/modul8",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
