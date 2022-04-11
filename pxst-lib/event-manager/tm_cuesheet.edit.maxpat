@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 167.0, 306.0, 981.0, 489.0 ],
+		"rect" : [ 137.0, 146.0, 1055.0, 492.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -259,8 +259,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 553.0, 229.0, 238.0, 19.0 ],
-					"text" : "brgb 222 16 108, bgfillcolor 222 16 108, frgb 255 255 255"
+					"patching_rect" : [ 481.333333333333371, 267.0, 94.0, 19.0 ],
+					"text" : "bgfillcolor 0.9 0.6 0.6,"
 				}
 
 			}
@@ -273,8 +273,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 612.0, 281.0, 208.0, 19.0 ],
-					"text" : "brgb 16 216 108, bgfillcolor 16 216 108, frgb 0 0 0"
+					"patching_rect" : [ 612.0, 288.0, 97.0, 19.0 ],
+					"text" : "bgfillcolor 16 216 108,"
 				}
 
 			}
@@ -461,10 +461,11 @@
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
 					"bgfillcolor_type" : "color",
+					"elementcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-48",
-					"items" : "<empty>",
+					"items" : "dfqdf",
 					"maxclass" : "umenu",
 					"menumode" : 3,
 					"numinlets" : 1,
@@ -474,7 +475,7 @@
 					"patching_rect" : [ 435.0, 316.0, 420.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 76.0, 55.0, 420.0, 24.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textcolor" : [ 0.1, 0.1, 0.1, 1.0 ],
 					"textjustification" : 2,
 					"varname" : "onstage"
 				}
