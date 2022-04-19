@@ -441,7 +441,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-24",
-									"items" : [ "modul8", ",", "old", ",", "presets", ",", "vdmx", ",", "visca" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -632,6 +632,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-5",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -1578,6 +1579,17 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-40",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 226.5, 525.0, 167.0, 22.0 ],
+									"text" : "print CUESHEET-READ-FILE"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-1",
@@ -1959,7 +1971,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 95.0, 347.0, 147.0, 19.0 ],
-									"text" : "sprintf %sdata/%s.txt"
+									"text" : "sprintf %sdata%s.txt"
 								}
 
 							}
@@ -2014,7 +2026,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 389.0, 362.0, 147.0, 19.0 ],
-									"text" : "sprintf %sdata/%s.txt"
+									"text" : "sprintf %sdata%s.txt"
 								}
 
 							}
@@ -2082,7 +2094,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 95.0, 144.0, 147.0, 19.0 ],
-									"text" : "sprintf %sdata/%s.txt"
+									"text" : "sprintf %sdata%s.txt"
 								}
 
 							}
@@ -2344,6 +2356,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-14", 0 ],
+									"order" : 0,
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"order" : 1,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -3123,6 +3144,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-3",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -3569,6 +3591,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-12",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 4,
@@ -5187,7 +5210,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-7",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -5202,7 +5225,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-8",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -5232,7 +5255,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-18",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -5309,6 +5332,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-1",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -5324,6 +5348,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-2",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -5766,6 +5791,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-6",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -5795,6 +5821,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-8",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -7655,104 +7682,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "bytecount.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "explinlog.maxpat",
-				"bootpath" : "~/Documents/GITs/cendrillon/modul8",
-				"patcherrelativepath" : "../../../cendrillon/modul8",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "linecurv.maxpat",
-				"bootpath" : "~/Documents/GITs/cendrillon/modul8",
-				"patcherrelativepath" : "../../../cendrillon/modul8",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "makeparam.maxpat",
-				"bootpath" : "~/Documents/GITs/cendrillon/modul8",
-				"patcherrelativepath" : "../../../cendrillon/modul8",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "makesubparam.mxt",
-				"bootpath" : "~/Documents/GITs/pxst.max/pxst-lib/misc",
-				"patcherrelativepath" : "../misc",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "makesubswitch.mxt",
-				"bootpath" : "~/Documents/GITs/pxst.max/pxst-lib/misc",
-				"patcherrelativepath" : "../misc",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "makeswitch.maxpat",
-				"bootpath" : "~/Documents/GITs/cendrillon/modul8",
-				"patcherrelativepath" : "../../../cendrillon/modul8",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "minmaxf.maxpat",
-				"bootpath" : "~/Documents/GITs/cendrillon/modul8",
-				"patcherrelativepath" : "../../../cendrillon/modul8",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "multimapsend.maxpat",
-				"bootpath" : "~/Documents/GITs/pxst.max/pxst-lib/misc",
-				"patcherrelativepath" : "../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "projectpath.maxpat",
-				"bootpath" : "~/Documents/GITs/pxst.max/pxst-lib/event-manager",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pxst.control.maxpat",
-				"bootpath" : "~/Documents/GITs/pxst.max/pxst-lib/misc",
-				"patcherrelativepath" : "../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "routewithset.maxpat",
-				"bootpath" : "~/Documents/GITs/pxst.max/pxst-lib/misc",
-				"patcherrelativepath" : "../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "scalecurv.maxpat",
-				"bootpath" : "~/Documents/GITs/cendrillon/modul8",
-				"patcherrelativepath" : "../../../cendrillon/modul8",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tm_alias.maxpat",
-				"bootpath" : "~/Documents/GITs/cendrillon/modul8",
-				"patcherrelativepath" : "../../../cendrillon/modul8",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
